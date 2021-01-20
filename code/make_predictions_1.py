@@ -81,9 +81,9 @@ for img_path in test_img_paths:
     test_ids = test_ids + [img_path.split('/')[-1][:-4]]
     preds = preds + [pred_probas.argmax()]
 
-    print img_path
-    print pred_probas.argmax()
-    print '-------'
+    print(img_path)
+    print(pred_probas.argmax())
+    print('-------')
 
 '''
 Making submission file
